@@ -1,0 +1,28 @@
+[package]
+authors = ["eV <ev@7pr.xyz>"]
+name = "challenge-bypass-ristretto-ffi"
+version = "1.0.0-pre.1"
+
+[dependencies]
+base64 = "0.9.3"
+challenge-bypass-ristretto = { version = "1.0.0-pre.0", features = ["base64"] }
+hmac = "0.7"
+rand = "0.6.0"
+sha2 = "0.8"
+
+[lib]
+crate-type = [
+    "cdylib",
+    "staticlib",
+]
+name = "challenge_bypass_ristretto"
+
+[features]
+nightly = ["challenge-bypass-ristretto/nightly"]
+cbindgen = []
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
