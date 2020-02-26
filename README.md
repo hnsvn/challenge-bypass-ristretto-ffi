@@ -1,4 +1,4 @@
-# challenge-bypass-ristretto-ffi [![Build Status](https://travis-ci.org/huhisoftware/challenge-bypass-ristretto-ffi.svg?branch=master)](https://travis-ci.org/huhisoftware/challenge-bypass-ristretto-ffi)
+# challenge-bypass-ristretto-ffi [![Build Status](https://travis-ci.org/huhi-intl/challenge-bypass-ristretto-ffi.svg?branch=master)](https://travis-ci.org/huhi-intl/challenge-bypass-ristretto-ffi)
 
 **A FFI crate, C++ and Golang wrappers to expose functionality from [challenge-bypass-ristretto](https://github.com/huhisoftware/challenge-bypass-ristretto)**
 
