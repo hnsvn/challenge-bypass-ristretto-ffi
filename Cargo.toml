@@ -1,7 +1,7 @@
 [package]
 authors = ["eV <ev@7pr.xyz>"]
 name = "challenge-bypass-ristretto-ffi"
-version = "1.0.0-pre.1"
+version = "1.0.0-pre.2"
 
 [dependencies]
 base64 = "0.9.3"
@@ -14,8 +14,9 @@ sha2 = "0.8"
 crate-type = [
     "cdylib",
     "staticlib",
+    "rlib",
 ]
-name = "challenge_bypass_ristretto"
+name = "challenge_bypass_ristretto_ffi"
 
 [features]
 nightly = ["challenge-bypass-ristretto/nightly"]
